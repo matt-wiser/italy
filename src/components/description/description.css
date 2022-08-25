@@ -1,0 +1,16 @@
+.description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.description-text {
+    
+}
+
+.description-img {
+    
+}
+
+.description-img img {
+    width: 100%;
+}

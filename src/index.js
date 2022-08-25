@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Italy from './pages/italy'
+import Italy from './pages/italy/italy'
 import Cities from './pages/cities/cities';
-import Milano from './pages/cities/milano/milano';
-import Roma from './pages/cities/roma/roma';
-import Napoli from './pages/cities/napoli/napoli';
+import Milano from './pages/milano/milano';
+import Roma from './pages/roma/roma';
+import Napoli from './pages/napoli/napoli';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

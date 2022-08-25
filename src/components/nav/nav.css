@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a h2{
+    color: white;
+    font-weight: 200;
+    font-size: clamp(1rem,3vw,1.5rem);
+}

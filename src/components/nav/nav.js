@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./nav.css"
+
 const Nav = () => {
     return (
     <nav>
         <Link to="/">
-            <h2>Discover Italy</h2>
+            <h2>Italy</h2>
         </Link>
         
         <Link to="/cities">

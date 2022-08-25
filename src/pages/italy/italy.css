@@ -1,0 +1,17 @@
+#intro {
+  text-align: center;
+  background-color: #313641;
+  color: white;
+}
+
+.title {
+  font-family: var(--header-font);
+  font-size: clamp(2rem, 6vw, 8rem);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.subtitle {
+    font-size: clamp(1rem,3vw,3rem);
+    font-weight: 200;
+}

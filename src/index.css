@@ -1,1 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Bodoni+Moda:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+:root {
+  --header-font: 'Bodoni Moda';
+  --body-font: 'Poppins';
+ }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--body-font);
+}
+
+html {
+  line-height: 1.5;
+}
