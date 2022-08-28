@@ -15,6 +15,11 @@ const Italy = () => {
         <h1 className="title">Italy</h1>
         <h3 className="subtitle">A very witty and inspiring subtitle here</h3>
       </section>
+      
+      <DividerLarge img={require('../../assets/img/italy/piemonte.jpeg')} alt={'piemonte vineyard'}/>
+
+      <DividerText text={'This is a test quote for my text divider component testing testing testing testing testing'}/>
+
       <Description img={require('../../assets/img/italy/sicilia.jpeg')}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -46,10 +51,8 @@ const Italy = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </Description>
-
-      <DividerText />
-      <DividerLarge />
-      <DividerSmall />
+      
+      <DividerSmall img={require('../../assets/img/italy/abruzzo.jpeg')} alt={'Abruzzo Hillside Village'}/>
     </>
   );
 };

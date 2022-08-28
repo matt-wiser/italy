@@ -1,25 +1,31 @@
 import React from "react";
 
-const DividerText = () => {
+import AnimatedWords from "../animated-words/animated-words";
+
+import "./dividers.css"
+
+const DividerText = ({text}) => {    
+
+    
     return (
-        <section>
-            <p>Testing testing divider text</p>
+        <section className="divider-text">
+            <AnimatedWords text={text}/>
         </section>
     )
 }
 
-const DividerSmall = () => {
+const DividerSmall = ({img, alt}) => {
     return (
-        <section>
-            <p>Testing testing divider small</p>
+        <section className="divider-small">
+            <img src={img} alt={alt}></img>
         </section>
     )
 }
 
-const DividerLarge = () => {
+const DividerLarge = ({ img, alt }) => {
     return (
-        <section>
-            <p>Testing testing divider large</p>
+        <section className="divider-large">
+            <img src={img} alt={alt}></img>
         </section>
     )
 }

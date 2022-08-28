@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './cities.css'
 
 const Cities = () => {
     return (
 
         <>
-        <h1>Cities!</h1>
+        <h1 className="city-title">Cities!</h1>
         
         <Link to="milano">
             <h2>Milano</h2>

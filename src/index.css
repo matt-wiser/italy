@@ -4,6 +4,10 @@
 :root {
   --header-font: 'Bodoni Moda';
   --body-font: 'Poppins';
+  --light-text: #cdc9bd;
+  --dark-bg: #313641;
+  --light-bg: #f7f7f7;
+  --description-bg: #fff;
  }
 
 *,
@@ -17,4 +21,9 @@
 
 html {
   line-height: 1.5;
+  
+}
+
+img {
+  max-width: 100%;
 }

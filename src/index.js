@@ -1,14 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-import Italy from './pages/italy/italy'
-import Cities from './pages/cities/cities';
-import Milano from './pages/milano/milano';
-import Roma from './pages/roma/roma';
-import Napoli from './pages/napoli/napoli';
-
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -17,15 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />}>
-          <Route index element={<Italy />} />
-          <Route path="/cities" element={<Cities />} />
-          <Route path="/cities/milano" element={<Milano />} />
-          <Route path="/cities/roma" element={<Roma />} />
-          <Route path="/cities/napoli" element={<Napoli />} />
-        </Route>
-      </Routes>
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );

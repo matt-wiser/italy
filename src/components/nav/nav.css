@@ -6,10 +6,11 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    height: clamp(4rem,10vw,5rem);
 }
 
 nav a h2{
-    color: white;
+    color: var(--light-text);
     font-weight: 200;
     font-size: clamp(1rem,3vw,1.5rem);
 }
