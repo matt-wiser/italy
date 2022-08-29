@@ -37,7 +37,7 @@ const AnimatedWords = ({ text }) => {
       className="divider-text-header"
       variants={headerVariants}
       initial={"hidden"}
-      animate={"visible"}
+      whileInView={"visible"}
     >
       {words.map((word, index) => {
         return (
