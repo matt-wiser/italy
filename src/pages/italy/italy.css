@@ -1,4 +1,11 @@
 #intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  min-height: 60vh;
+  width: 100%;
+  align-items: center;
   text-align: center;
   background-color: var(--dark-bg);
   color: var(--light-text);
@@ -6,12 +13,12 @@
 
 .title {
   font-family: var(--header-font);
-  font-size: clamp(2rem, 6vw, 8rem);
+  font-size: 10vw;
   text-transform: uppercase;
   font-weight: 800;
 }
 
 .subtitle {
-    font-size: clamp(1rem,3vw,3rem);
-    font-weight: 200;
+  font-size: clamp(1rem, 3vw, 3rem);
+  font-weight: 200;
 }

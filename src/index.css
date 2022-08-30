@@ -8,7 +8,7 @@
   --dark-bg: #313641;
   --light-bg: #f7f7f7;
   --description-bg: #fff;
- }
+}
 
 *,
 *::before,
@@ -20,8 +20,7 @@
 }
 
 html {
-  line-height: 1.5;
-  
+  line-height: 1.75;
 }
 
 img {

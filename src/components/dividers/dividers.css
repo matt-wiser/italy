@@ -1,42 +1,38 @@
 .divider-large {
-    height: clamp(30rem, 60vw, 60rem);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-
+  height: clamp(30rem, 60vw, 60rem);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .divider-large img {
-    height: 140%;
-    width: 100%;
-    object-fit: cover;
+  height: 140%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .divider-small {
-
 }
 
 .divider-small img {
-    
 }
 
 .divider-text {
-    text-align: center; 
-    padding-block: clamp(5rem, 20vw, 10rem);
-    padding-inline: clamp(1rem, 6vw, 10rem);
-    background-color: var(--light-bg);
+  text-align: center;
+  padding-block: clamp(5rem, 20vw, 10rem);
+  padding-inline: clamp(1rem, 6vw, 10rem);
+  background-color: var(--light-bg);
 }
 
 .divider-text-header {
-
 }
 
 .divider-text-header span {
-    font-family: var(--header-font);
-    font-size: clamp(1rem, 2vw, 2rem);
-    font-weight: 600;
-    text-transform: uppercase;
-    display: inline-block;
+  font-family: var(--header-font);
+  font-size: clamp(2rem, 4vw, 4rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
 }
